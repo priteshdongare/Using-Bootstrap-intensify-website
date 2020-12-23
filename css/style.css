@@ -1,0 +1,233 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/*navigation*/
+#all{
+  width: 100%;
+  background:none;
+  border: 0;
+}
+.mean1{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#all .navbar-toggle{
+    display: block;
+    float: left;
+    border: 0;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+.right-modal{
+   float: right;
+   margin:8px 8px 0px 0px;
+}
+#all .navbar-toggle:hover{
+    background: none;
+    cursor: pointer;
+}
+#all .navbar-header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#me .icon-bar{
+    color: #dbdbdb;
+}
+
+.posi{
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 0px;
+    position: absolute;
+    left: 47%;
+}
+.posi .ok{
+    color: #f6755e;
+}
+/*banner*/
+.mean2{
+    width: 100%;
+    background-image: url("../img/bannerok.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 130px 0px 200px 0px;
+    margin-top: 0px;
+    position: relative;
+    top: -20px;
+}
+.mean2 .center1 h1{
+    font-size: 40px;
+    font-weight:700;
+    color: #25a2c3;
+}
+.mean2 .center1 p{
+    font-size: 15px;
+    color:grey;
+    font-weight: 100;
+}
+.mean2 .center1 button{
+    width: 150px;
+    height: 40px;
+    background-color:#f6755e;
+    border: 0;
+}
+/*3 section*/
+.mean3{
+    padding: 50px 0px 80px 0px;
+}
+.mean3 img{
+    width: 80%;
+    height: 80%;
+}
+.mean3 .chaild h1{
+        font-size: 18px;
+        color:#25a2c3;
+        font-weight: 700; 
+        margin-top: 25px ;
+}
+.mean3 .chaild h2{
+    font-size: 18px;
+    color:#25a2c3; 
+    font-weight: 700;
+    margin-top: 80px ;
+}
+.mean3 .chaild p{
+    font-size: 15px;
+    color:grey;
+    font-weight: 100;
+   
+}
+
+/*part3*/
+.mean4{
+    width: 100%;
+    background-color: #f6755e;
+    padding: 70px 0px;
+    color: #ffffff;
+}
+
+.new{
+    width: 100%;
+}
+.mean4 h1{
+    font-size: 27px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.mean4 p{
+    font-size: 19px;
+    font-weight: 100;
+}
+
+.mean4 h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+.mean4 .CEO{
+    font-size: 13px;
+    font-weight: 100;
+}
+/*part4*/
+.mean5{
+    padding: 100px 0px;
+}
+.mean5 .co {
+     width: 95%;
+     border: 1px solid #dbdbdb;
+}
+.mean5 .co h1 {
+   padding-left: 15px;
+   color:#25a2c3;
+   font-size: 18px;
+   font-weight: 900;
+}
+.mean5 .co p{
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 100;
+    color: grey;
+    margin-bottom: 20px;
+}
+.mean5 .co img {
+    width: 100%;
+}
+/*paert5*/
+.mean6{
+    width: 100%;
+    background-color: #25a2c3;
+    color: #ffffff;
+    padding: 50px 0px;
+}
+.mean6 .road  span{
+    color: #f6755e;
+    font-size: 20px;
+    margin-right:5px;
+}
+.mean6 .road h1{
+   font-size: 18px;
+}
+.mean6  hr{
+    width: 40%;
+    margin-top:10px;
+    background-color: #5cbad2;
+}
+.mean6 .foot h1{
+     font-size: 30px;
+     font-weight: 900;
+}
+
+@media only screen and (max-width:700px){
+    .posi{
+        position: absolute;
+        left: 30%;
+    }
+    /*part2*/
+    .mean3 .chaild{
+        text-align: center;
+    }
+    .mean3 .chaild h2{
+        margin-top: 40px ;
+    }
+    .mean3 .chaild{
+        padding:20px 0px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #dbdbdb;
+    }
+    .mean3{
+        padding: 30px 0px 50px 0px;
+    }
+    /*part3*/
+    .mean4 h1{
+        font-size: 22px;
+    }
+    .mean4 p{
+        font-size: 16px;
+    }
+    
+    .mean4 h2{
+        font-size: 15px;
+    }
+    .mean4 .CEO{
+        font-size: 10px;
+    }
+    /*part4*/
+    .mean5 .co p{
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 100;
+    }
+    .mean5 .co{
+        margin: 0px 0px 25px 10px;
+    }
+    .mean6 .road h1{
+        font-size: 10px;
+    }
+    .mean6 .road span{
+        font-size: 10px;
+    }
+}
